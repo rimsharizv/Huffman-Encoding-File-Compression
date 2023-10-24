@@ -15,11 +15,11 @@ To use this project, you should:
 4. To compress a file, call the compress function from util.h and pass the name of the file you want to compress as the parameter.
   string compressed = compress("filename.txt");
   This will create a new compressed file with the extension .huf and return a string version of the compressed file's bit pattern.
-5. To decompress a file, call the decompress function from util.h and pass the name of the compressed file as the parameter.
+5. To decompress a file, call the decompress function from util.h and pass the compressed file's name as the parameter.
   string decompressed = decompress("filename.txt.huf");
   This will create a new decompressed file with the _unc extension added before the original file extension, and return a string version of the decompressed file.
 
 ## Copyright and Plagiarism Notice
-All content in this repository, including code, documentation, and other materials, is the property of Rimsha Rizvi. This work is submitted for CS 251 - Data Structures at University of Illinois at Chicago.
-Plagiarism is a serious offense and is strictly prohibited. You may not use, copy, or submit this work as your own. Any instances of plagiarism or unauthorized use will be reported to the relevant academic or professional authorities.
-If you would like to use this work for educational or other non-commercial purposes, please contact the author for permission.
+This work is submitted for CS 251 - Data Structures at the University of Illinois at Chicago.
+Plagiarism is a serious offense and is strictly prohibited. You may not use, copy, or submit this work as your own. Any plagiarism or unauthorized use will be reported to the relevant academic or professional authorities.
+If you would like to use this work for educational or other non-commercial purposes, don't hesitate to get in touch with the author for permission.
